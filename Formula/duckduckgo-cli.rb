@@ -7,22 +7,22 @@ class DuckduckgoCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/ysm-dev/duckduckgo-cli/releases/download/v0.1.0/duckduckgo-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "757eb35444c18a7fa3f0022589d8dbbea56c13a01790ee7940a1f385855c5afa"
+      sha256 "b115016d1a201379d2b0a41fa02538197daeb975b5b7007f297e7425ab4422c9"
     end
     on_intel do
       url "https://github.com/ysm-dev/duckduckgo-cli/releases/download/v0.1.0/duckduckgo-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "40ef74312899904656cef016934fbdcd85fd2f4044da77359c288ec9426c8b72"
+      sha256 "af9fc97cd5eb6a10aa818314277aa2a9a018486c127c82ea3eb267ad6d8e4daa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ysm-dev/duckduckgo-cli/releases/download/v0.1.0/duckduckgo-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fbbec6d48629875af1b48777eccef1f9c89228ffb9f37ad8eef09165a6eef906"
+      sha256 "dcb4fc6b14daa3da8ac027a3fca678d12a54e831e3acfd1c5f3d00c937d2fc89"
     end
     on_intel do
       url "https://github.com/ysm-dev/duckduckgo-cli/releases/download/v0.1.0/duckduckgo-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "76b1cb71cdcd39a1a00b0dc35416780048c15d5dd08b3811a5546026a0ff6e90"
+      sha256 "a1aaba954eceb06603793b6abd9b6c0774a3b3a2a3a6136f03328e53ec5859ff"
     end
   end
 
